@@ -25,7 +25,7 @@ public class ReadTextFile {
             System.out.println("Ket qua doc duoc");
             for(SanPham x:ds)
             {
-                System.out.println("");
+                System.out.println(x);
             }
         }catch(Exception ex){
             System.out.println("Loi xay ra:"+ex.toString());

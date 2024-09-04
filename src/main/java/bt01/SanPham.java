@@ -4,11 +4,13 @@
  */
 package bt01;
 
+import java.io.Serializable;
+
 /**
  *
  * @author ADMIN
  */
-public class SanPham {
+public class SanPham implements Serializable{
     private String maso;
     private String ten;
     private float gia;
